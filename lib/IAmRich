@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(
+      MaterialApp(
+        home: Scaffold(
+          backgroundColor: Colors.blueGrey,
+          appBar: AppBar(
+            title: Text('I AM RICH'),
+            backgroundColor: Colors.blueGrey[900],
+          ),
+          body: Center(
+            child: Image(
+              image: NetworkImage('https://static6.depositphotos.com/1077028/582/i/600/depositphotos_5826676-stock-photo-aquamarine-gem.jpg'),
+            ),
+          ),
+        ),
+      ),
+    );
